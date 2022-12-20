@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "staging": "elise-adams-staging",
+    "production": "elise-adams"
+  },
+  "targets": {},
+  "etags": {}
+}
