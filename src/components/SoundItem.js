@@ -3,6 +3,8 @@ import { Button } from 'react-bootstrap'
 import "../css/sound-item.scss"
 
 export default function SoundItem() {
+    const sfx = new Audio("/audio/17869_1464188839.mp3");
+
     return (
         <>
             <div className="sound-item">
@@ -12,7 +14,13 @@ export default function SoundItem() {
                     alt="cat"
                     loading="eager"
                 />
-                <Button className="big-button" size="lg">cat</Button>
+                <Button
+                    className="big-button"
+                    size="lg"
+                    onClick={() => {
+                        sfx.play();
+                    }}
+                >cat</Button>
             </div>
         </>
     )
