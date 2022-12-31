@@ -5,10 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 15px;
+}
+
+.item-outer-container {
+  width: fit-content;
+  margin: auto;
 }
 
 .item-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: solid 4px rgb(131, 6, 27);
+  gap: 10px;
+  padding: 10px;
+  background-color: pink;
 }
